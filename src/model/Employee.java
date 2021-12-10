@@ -1,4 +1,5 @@
 package model;
+import java.util.Objects;
 
 public class Employee {
 
@@ -6,6 +7,19 @@ public class Employee {
     String name;
     int age;
     double salary;
+
+
+    @Override
+    public boolean equals(Object o) {
+        if(this == o) return true;
+        if(o == null || getClass() !=o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return id==employee.id;
+    }
+    @Override
+    public int hashCode(){
+        return id;
+    }
 
     public Employee(int id, String name, int age, double salary) {
         this.id = id;
