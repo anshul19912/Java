@@ -21,13 +21,23 @@ public class HashMapDemo {
         System.out.println(course.get(2));
         System.out.println(course.get(1));
 
-        //iterate hashMap
+        //iterate over Map.entrySet() using for-Each loop
         for (Map.Entry<Integer, String> var: course.entrySet() ){
             System.out.println(var.getValue());
         }
 
-        //for Java 8
+        //using forEach(action) method
         course.forEach((k,v)->System.out.println("Using lambda key " +k +" and value " +v));
+
+        //iterate over keys or values using keyset() & values() methods
+        for(Integer var:course.keySet()){
+            System.out.println("key:" +var);
+        }
+        for(String var: course.values()){
+            System.out.println("value: "+var);
+        }
+
+
     }
 }
 
