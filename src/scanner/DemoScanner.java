@@ -8,11 +8,11 @@ public class DemoScanner {
         Scanner sc = new Scanner(System.in);  //create object of scanner class
 
         System.out.println("Enter your Name");
-        String name=sc.nextLine();
+        String name=sc.nextLine();                            // IT always read String Input
         System.out.println("You have entered name : "+ name);
 
         System.out.println("Enter you age");
-        int age=sc.nextInt();
+        int age=sc.nextInt();                                 // reads Integer value
         System.out.println("You have entered age: "+age);
 
         System.out.println("Enter you salary");

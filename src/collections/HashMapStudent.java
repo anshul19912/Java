@@ -33,13 +33,13 @@ public class HashMapStudent {
         studentArrayList.add(student2);
         studentArrayList.add(student3);
 
-        HashMap<Integer, ArrayList<Student>> hashMap= new HashMap<>();
+        HashMap<Integer, ArrayList<Student>> studentArrayListHashMap= new HashMap<>();
 
-        hashMap.put(1,studentArrayList);
+        studentArrayListHashMap.put(1,studentArrayList);
 
-        ArrayList<Student> studentArrayListOutPut= hashMap.get(1);               // this will give student array list
+        ArrayList<Student> finallist= studentArrayListHashMap.get(1);           // this will give student array list
 
-        for(Student var: studentArrayListOutPut){
+        for(Student var: finallist){
             System.out.println("Name: " +var.getName());
             System.out.println("Dept: " +var.getDept());
             System.out.println("Age: " +var.getAge());

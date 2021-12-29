@@ -9,11 +9,13 @@ public class ArrayListDemo {
 
         ArrayList arrayList = new ArrayList();
 
-        arrayList.add("Java");              // index 0     // add method is used to add elements inside list
+        // add:  to add data
+        arrayList.add("Java");              // index 0
         arrayList.add("Spring Boot");       // index
         arrayList.add("Spring");            // index 0
 
-        System.out.println(arrayList.get(2));        // get method is used to get elements inside list
+        // get: to read dataa
+        System.out.println(arrayList.get(2));
         System.out.println(arrayList.get(0));
 
         // remove method is used to delete elements inside list
@@ -24,6 +26,7 @@ public class ArrayListDemo {
         for (Object var : arrayList) {         // Object  can accept any type of value
             System.out.println("Inside advanced for loop " + var);
         }
+        System.out.println("printing size of array list: "+arrayList.size());
     }
 
 
@@ -31,7 +34,7 @@ public class ArrayListDemo {
 
     public void demoWithGenerics(){
 
-        //Collection <datatype> objName= new Collection();
+        // Collection_Name <datatype> objName= new Collection_name();
         ArrayList <String> arrayList= new ArrayList();
         arrayList.add("Java");
         arrayList.add("Spring Boot");

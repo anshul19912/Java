@@ -31,7 +31,7 @@ public class HashMapEmployee {
            System.out.println("salary: " +var.getSalary());
        }
 
-
+        
 
     }
 }

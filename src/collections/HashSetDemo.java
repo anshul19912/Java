@@ -1,7 +1,7 @@
 package collections;
 import java.util.HashSet;
 
-//hashset only stores unique value
+//hashset only stores unique value other than array list which stores duplicate values
 public class HashSetDemo {
 
     public void demo(){

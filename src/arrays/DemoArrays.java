@@ -9,6 +9,12 @@ public class DemoArrays {
         int [] marksArray={43,55,33,87,98,67,78,32,41};
 
         //index: 0,1,2,3,4,5,6
+        System.out.println("Printing Array elements "+marksArray[0]);
+        System.out.println("Printing Array elements "+marksArray[1]);
+        System.out.println("Printing Array elements "+marksArray[2]);
+        System.out.println("Printing Array elements "+marksArray[3]);
+        System.out.println("Printing Array elements "+marksArray[4]);
+
 
         for(int i=0;i< marksArray.length;i++){
             System.out.println("Inside for loop "+marksArray[i]);

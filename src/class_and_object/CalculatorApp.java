@@ -29,7 +29,7 @@ public class CalculatorApp {
             int num2 = sc.nextInt();
 
             System.out.println("Enter the operation: ");
-            char choice = sc.next().charAt(0);   //1- addition   2-subtraciton 3- multi  4-division
+            char choice = sc.next().charAt(0);   //1- addition   2-subtraction 3- multi  4-division
 
 
             int add = obj.add(num1, num2);
