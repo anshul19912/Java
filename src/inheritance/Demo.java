@@ -1,5 +1,5 @@
 package inheritance;
-
+//Inheritance is a mechanism in which one class acquires the property of another class
 public class Demo {
 
     public void m1(){
