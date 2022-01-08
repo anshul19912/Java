@@ -20,6 +20,6 @@ public class Demo {
 
     public static void main(String[] args){
         Demo obj= new Demo();
-        obj.divide(2,2);
+        obj.divide(2,0);
     }
 }
