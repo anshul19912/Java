@@ -16,7 +16,7 @@ public class DemoVariable {
 
         System.out.println(city_name);
 
-        // SYNTAX :  DataType variable_name= value;
+
 
         int age=23;
         System.out.println("This is age :" +age);

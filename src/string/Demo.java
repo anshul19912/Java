@@ -9,7 +9,7 @@ public class Demo {
             System.out.println("s and s1 are at same memory location");
         }
         if(s==s2){          //       '==' checks memory location
-            System.out.println("s and s2 ae at same memory location");
+            System.out.println("s and s2 are at same memory location");
         }
         else{
             System.out.println("No, s and s2 are not at same memory location");
@@ -20,3 +20,5 @@ public class Demo {
         }
     }
 }
+
+

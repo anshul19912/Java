@@ -30,7 +30,7 @@ public class DemoDog {
         System.out.println("inside Sleep Method, Dog is Sleeping..... ");
     }
     public static void main(String[] args) {
-        //Step 1- create object step 2 calling
+        //Step 1- create object, step 2 calling
 
         //step:1
         // classname objName= new CLassName();

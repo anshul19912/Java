@@ -28,8 +28,11 @@ public class MethodDAY2 {
         int add= obj.addition();
         System.out.println("Addition is "+add);
 
+        /*
         String msg=obj.Message();
         System.out.println("Message is "+msg);
+                      or           */
+        System.out.println(obj.Message());
 
         double price=obj.Price();
         System.out.println("Price is "+price);
